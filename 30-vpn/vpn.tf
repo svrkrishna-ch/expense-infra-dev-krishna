@@ -19,6 +19,6 @@ resource "aws_instance" "openvpn" {
   )
 }
 
-/* output "vpn_ip" {
+output "vpn_ip" {
   value = aws_instance.openvpn.public_ip
-} */
+}
